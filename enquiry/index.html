@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-velvet="blue" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your enquiry list | Svarnam Gold</title>
+<meta name="description" content="Send your chosen pieces to Svarnam Gold to confirm the price, availability and delivery.">
+<link rel="canonical" href="https://svarnamgold.shop/enquiry/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Svarnam Gold">
+<meta property="og:title" content="Your enquiry list | Svarnam Gold">
+<meta property="og:description" content="Send your chosen pieces to Svarnam Gold to confirm the price, availability and delivery.">
+
+<meta name="theme-color" content="#f7f6f3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script>try{var v=localStorage.getItem("kanaka.velvet");if(v==="red"||v==="blue")document.documentElement.dataset.velvet=v}catch(e){}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="head">
+  <div class="head__in">
+    <a class="brand" href="../index.html">Svarnam Gold</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../collection/">Collection</a><a href="../deities/">Deities</a><a href="../size-guide/">Size guide</a>
+    </nav>
+    <div class="head__tools">
+      <a class="headbtn" href="https://wa.me/601160825765?text=Hello%20Svarnam%20Gold%2C%20I%20would%20like%20to%20ask%20about%20your%20gold%20leaf%20pieces." aria-label="WhatsApp us"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.7A8.4 8.4 0 1 1 21 11.5Z"/></svg><span class="headbtn__text">WhatsApp</span></a>
+      <a class="headbtn headbtn--list" href="../enquiry/" aria-label="Enquiry list"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3.5 6h.01M3.5 12h.01M3.5 18h.01"/></svg><span class="headbtn__text">Enquiry list</span><span class="count" data-count aria-live="polite">0</span></a>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+<div class="wrap page">
+  <header class="page__head">
+    <h1>Your enquiry list</h1>
+    <p>Send your list and we will confirm the final price, availability and delivery. Nothing is charged here.</p>
+  </header>
+  <div class="enq" data-enquiry>
+    <section aria-label="Pieces in your list">
+      <ul class="enq__list" data-list></ul>
+      <p class="enq__total" data-total hidden></p>
+      <div class="empty" data-list-empty hidden>
+        <h2>Your list is empty</h2>
+        <p>Add any frame or statue and it will appear here.</p>
+        <a class="btn btn--primary" href="../collection/">Browse the collection</a>
+      </div>
+    </section>
+    <form class="enq__form" data-enquiry-form novalidate hidden>
+      <h2>Your details</h2>
+      <label class="field"><span>Your name <em>required</em></span><input name="name" autocomplete="name" required><small class="err" hidden>Please add your name so we know who to reply to.</small></label>
+      <label class="field"><span>Deliver to <em>required</em></span><input name="city" autocomplete="address-level2" placeholder="City and country" required><small class="err" hidden>Please add a city and country so we can work out delivery.</small></label>
+      <label class="field"><span>Occasion</span><input name="occasion" placeholder="Housewarming, wedding, for our home"></label>
+      <label class="field"><span>Anything else</span><textarea name="note" rows="3"></textarea></label>
+      <div class="enq__send">
+        <button class="btn btn--primary" type="submit" name="via" value="whatsapp"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.7A8.4 8.4 0 1 1 21 11.5Z"/></svg> Send on WhatsApp</button>
+        
+        <button class="btn btn--line" type="submit" name="via" value="copy"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="1"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg> Copy my list</button>
+      </div>
+      
+    </form>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="foot__in">
+    <div>
+      <p class="brand">Svarnam Gold</p>
+      <p class="foot__tag">24K gold leaf devotional art</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="../collection/">Collection</a>
+      <a href="../deities/">Deities</a>
+      <a href="../size-guide/">Size guide</a>
+      <a href="../enquiry/">Enquiry list</a>
+    </nav>
+    <div class="foot__contact">
+      <a href="https://wa.me/601160825765?text=Hello%20Svarnam%20Gold%2C%20I%20would%20like%20to%20ask%20about%20your%20gold%20leaf%20pieces.">WhatsApp +60 11-6082 5765</a>
+      
+      
+      
+      <p>Prices are estimates. We confirm the final price on WhatsApp.</p>
+    </div>
+  </div>
+  <p class="foot__base">&copy; 2026 Svarnam Gold</p>
+</footer>
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+<script src="../assets/catalog.js" defer></script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>
